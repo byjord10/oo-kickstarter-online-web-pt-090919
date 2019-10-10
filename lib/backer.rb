@@ -1,4 +1,4 @@
-class Becker
+class Backer
   attr_reader :name, :backed_projects
 
   def initialize(name)
@@ -10,4 +10,4 @@ class Becker
     backed_projects << project
     project.backers << self
   end
-end 
+end
